@@ -16,7 +16,6 @@ include 'data/projects.php';
         <h1>Hola, soy Jesús Castillo</h1>
         <p>
             Desarrollador de software apasionado con experiencia en PHP, JavaScript y Python. Me especializo en crear aplicaciones web eficientes y escalables.
-            Aquí puedes poner un texto breve sobre ti, tus intereses y lo que buscas.
         </p>
         
         <div class="social-links">
