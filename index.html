@@ -1,17 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Jesús Castillo</title>
+    <title>Mi Portafolio - JC</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body> 
-    <h1>HOLA ESTA ES LA PRIMERA PRUEBA</h1>
-    <div class="card-image">
-        <img src="img/project-dgsa.jpg" alt="Portada del proyecto DGSA">
-    </div>
+
+<body class="dark-mode">
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="theme-switcher">
+                <a href="mailto:jesusgole33@gmail.com" class="header-email ">jesusgole33@gmail.com</a>
+                <p>|</p>
+                <p class="header-email">+58 412 445 72 87</p>
+            </div>
+
+
+            <div class="theme-switcher">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- <main class="container"></main> -->
+
+    <section class="hero-section" id="about">
+        <div class="hero-image">
+            <img src="img/profile.jpg" alt="Foto de perfil de Jesús Castillo">
+        </div>
+        <div class="hero-text">
+            <h1>Hola, soy Jesús Castillo</h1>
+            <p>
+                Soy un Desarrollador de Software FullStack con poco más de 3 años de experiencia; Inicié mis estudios en 2020 como informático en la Universidad Politécnica Territorial del estado Aragua, obteniendo el título de Técnico Superior en Informática, además de continuar cursando mis estudios para obtener el título de Ingeniería. Desde entonces, he trabajado en proyectos de alto impacto, desde aplicaciones web hasta sistemas de gestión de datos.
+                <br><br>
+                Mi pasión por la tecnología y la programación me impulsa a seguir aprendiendo y creciendo en este campo dinámico. Estoy siempre abierto a nuevas oportunidades y desafíos que me permitan aplicar mis habilidades y contribuir al éxito de proyectos innovadores.
+                <br><br>
+                Por último, comparto mi hoja de vida actualizada, donde de manera más detallada, podrás conocer mi experiencia laboral, habilidades técnicas y logros académicos.
+            </p>
+
+            <div class="social-links">
+                <!-- <a href="[Tu Link]" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+                <a href="https://github.com/JesusJ4s" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/JesusHolaaloH" target="_blank" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="docs/CurriculumJesus2025.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section2">
+        <div class="hero-text2">
+            <h1>Lenguajes de programación</h1>
+            <div class="language-icon-div">
+                <span class="language-icon"><i class="fa-brands fa-js" ></i></span>
+                <span class="language-icon"><i class="fa-brands fa-php"></i></span>
+                <span class="language-icon"><i class="fa-brands fa-html5"></i></span>
+                <span class="language-icon"><i class="fa-brands fa-css3-alt"></i></span>
+                <!-- <span class="language-icon"><i class="fa-brands fa-python"></i></span> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <a>
+                    <div class="card-image">
+                        <img src="img/project-dgsa.jpg" alt="Portada del proyecto DGSA">
+                    </div>
+                    <div class="card-content">
+                        <h3>Proyecto Dirección General de Salud Ambiental</h3>
+                        <p>
+                            El sistema de gestión y optimización desarrollado para la DGSA, es un sistema que ayuda en la agilización de los procesos administrativos del departamento de Salud Ambiental. El sistema permite llevar un control del parque tecnológico de la institución, así como apoyar en las operaciones de gestión de equipos y procesos de mantenimiento, permitiendo conocer el estado de cada proceso en tiempo real. Dicha aplicación se desarrolló utilizando PHP, MySQL, CSS y JavaScript.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <a>
+                    <div class="card-image">
+                        <img src="img/project-musical.jpg" alt="Portada proyecto gestión procesos administrativos">
+                    </div>
+                    <div class="card-content">
+                        <h3>Sistema de Gestión procesos administrativos de Tienda Musical Nippon</h3>
+                        <p>
+                            El sistema de gestión de procesos administrativos de la tienda musical, se desarrolló utilizando PHP, MySQL, CSS y JavaScript, además de utilizar Amazón Web Services para implantar en sistema en Internet. El sistema permite la gestión de inventarios, pedidos y pagos, así como la gestión de clientes y productos. En este sentido, la aplicación permite la gestión de tareas y el seguimiento de los pedidos en tiempo real. La misma se encuentra en fases de pruebas y optimización debido a que en paralelo se realiza su sitio web para ayudar a llegar a más clientes a la tienda.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <a>
+                    <div class="card-image">
+                        <img src="img/project-nippon.jpg" alt="E-commerce de instrumentos musicales">
+                    </div>
+                    <div class="card-content">
+                        <h3>Nippon Instruments E-commerce</h3>
+                        <p>
+                            La tienda de instrumentos musicales, se desarrolló utilizando PHP, MySQL, CSS y JavaScript, además de utilizar Amazón Web Services para implantar en sistema en Internet. El objetivo del E-commerce es permitir a los clientes comprar instrumentos musicales en línea, así como gestionar sus pedidos y pagos. La aplicación permite la gestión de productos, categorías, favoritos y usuarios. Actualmente, el E-commerce se encuentra en fase de pruebas y se espera que esté disponible para los clientes en los próximos meses.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p><span>&copy; </span>2025 - Jesús Castillo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -85,6 +85,10 @@ h1 { font-size: 2.5rem; }
 h2 { font-size: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; }
 h3 { font-size: 1.25rem; }
 
+.language-icon{
+    font-size: 30px;
+    margin: 0 10px
+}
 /* =========================== */
 /* Cabecera           */
 /* =========================== */
@@ -177,6 +181,13 @@ input:checked + .slider:before {
     padding: 3rem 4rem;
     transition: all 0.8s;
 }
+.hero-section2 {
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    transition: all 0.8s;
+}
 
 .hero-image {
     flex-shrink: 0;
@@ -189,11 +200,21 @@ input:checked + .slider:before {
     object-fit: cover;
     border: 5px solid var(--border-color);
 }
-
+.hero-text{
+    width: 850px;
+}
+.hero-text2{
+    width: auto;
+}
 .hero-text h1 {
     color: var(--accent-color);
 }
-
+.hero-text2 h1 {
+    color: var(--accent-color);
+}
+.language-icon-div{
+    text-align: center;
+}
 .social-links {
     margin-top: 1.5rem;
     display: flex;
@@ -230,6 +251,7 @@ input:checked + .slider:before {
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    margin: 40px 0;
 }
 
 .project-card {
@@ -300,6 +322,11 @@ input:checked + .slider:before {
 /* =========================== */
 /* Media Query (Mobile)   */
 /* =========================== */
+@media (max-width: 1500px){
+    .hero-text{
+        width: auto;
+    }
+}
 @media (max-width: 1100px) {
     .hero-section {
         flex-direction: column;
@@ -307,6 +334,12 @@ input:checked + .slider:before {
         text-align: center;
         gap: 1.5rem;
         padding: 1.5rem 3rem;
+    }
+    .hero-text{
+        text-align: start;
+    }
+    .hero-text h1{
+        text-align: center;
     }
     .projects-section {
         padding: 2rem 3rem;
@@ -339,6 +372,7 @@ input:checked + .slider:before {
         gap: 1.5rem;
         padding: 1.5rem 2rem;
     }
+
     .projects-section {
         padding: 2rem 2rem;
     }
@@ -360,6 +394,11 @@ input:checked + .slider:before {
     }
 }
 
+@media (max-width: 600px) {
+    .project-card {
+        width: 80vw;
+    }
+}
 @media (min-width: 480px) and (max-width: 768px) {
     /* Mantenemos el auto-fit para tablets */
     /* .project-grid {
